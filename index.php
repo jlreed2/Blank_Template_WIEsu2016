@@ -1,10 +1,17 @@
-
 <?php get_header(); ?>
+
 <!--Begin Section Container -->
 <section class="row">
     <div class="twelve columns">
-        <h2>Section Content-cool</h2>
-        <p>This is some cool section conent</p>
+        <!--Begin Loop-->
+        <?php
+            if ( have_posts()) {
+                while ( have_posts()) {
+                    the_post();
+                }
+            }
+        ?>
+        <!--End Loop-->
     </div>
 </section>
 
