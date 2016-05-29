@@ -8,17 +8,17 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="row">
             <h1>Blank WordPress Template</h1>
             <p>This is my WordPress template.</p>
         </header>
 
-        <section>
+        <section class="row">
             <h2>Section Content-cool</h2>
             <p>This is some cool section conent</p>
         </section>
 
-        <footer>
+        <footer class="row">
             <h2>This is the footer</h2>
             <p>This is come cool footer content</p>
         </footer>
