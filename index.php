@@ -9,18 +9,24 @@
 <body>
     <div class="container">
         <header class="row">
-            <h1>Blank WordPress Template</h1>
-            <p>This is my WordPress template.</p>
+            <div class="twelve columns">
+                <h1>Blank WordPress Template</h1>
+                <p>This is my WordPress template.</p>
+            </div>
         </header>
 
         <section class="row">
-            <h2>Section Content-cool</h2>
-            <p>This is some cool section conent</p>
+            <div class="twelve columns">
+                <h2>Section Content-cool</h2>
+                <p>This is some cool section conent</p>
+            </div>
         </section>
 
         <footer class="row">
-            <h2>This is the footer</h2>
-            <p>This is come cool footer content</p>
+            <div class="twelve columns">
+                <h2>This is the footer</h2>
+                <p>This is come cool footer content</p>
+            </div>
         </footer>
     </div>
  </body>
